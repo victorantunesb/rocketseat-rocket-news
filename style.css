@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin-top: 5;
+}
+
+body {
+    background-repeat: no-repeat;
+    margin-left: 0px;   
+}
+#bg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+
+#read-news {
+    position: absolute;
+    height: 100%;
+    float: right;
+    margin-left: 376px;
+    margin-top: 0px;
+    z-index: -2;
+    right:0px;
+}
+
+#rocket-news {
+width: 389px;    
+height: 94px;    
+margin: 50px 301px 92px 30px;
+}
+
+
+main{
+    margin-left: 36px;
+}
+
+main h2 {
+    color: #04D361;
+    font-family:'Work Sans', sans-serif;
+}
+
+main span {
+    color: #FFFFFF;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display:block;
+    margin-bottom: 9px;
+} 
+
+main p {
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+}
+
+div {
+    margin-left: 36px;
+    display: flex;
+}
+
+div label {
+    color: #A8A8A8;
+    font-family: 'League Spartan', sans-serif;
+}
+
+footer{
+    color: #8257E5; 
+    margin-left: 36px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 16px;   
+    display:flex;
+}
+
+footer span {
+    margin-top: 5px;
+}
+
+#arrow {
+    width: 24px;
+    height: 24px;
+}
+
+
+#btn {
+    background-color: #8257E5;
+    background-image: url(./assets/send.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    border: 0px;
+    margin: 0px;
+    display: inline;
+    position: absolute; 
+    margin-top: 17px;
+}
+
+#email {
+    width: 750px;
+    height: 48px;
+    margin-top: 17px;
+    border: 0px;
+    border-left: 5px solid #04D361;
+    margin-bottom: 50px;
+    
+}
